@@ -44,8 +44,8 @@ window.addEventListener("scroll", () => {
         )
     );
 
-    beeModel.style.transform = `translateX(${currentShift}%)`;
-    beeModel.setAttribute(
+    bee-Model.style.transform = `translateX(${currentShift}%)`;
+    bee-Model.setAttribute(
         "camera-orbit",
         `${currentOrbit[0]}deg ${currentOrbit[1]}deg`
     );
