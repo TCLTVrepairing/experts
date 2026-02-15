@@ -192,11 +192,12 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 50;
+    z-index: 1;
     pointer-events: none;
     transition: transform 0.3s var(--ease-out-quart);
     --poster-color: transparent;
 }
+
 
 .home {
     position: relative;
