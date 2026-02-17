@@ -749,4 +749,15 @@ body {
         justify-content: center;
         gap: 1rem 2rem;
     }
+    /* FIX: Make hero content clickable */
+.hero-content {
+    position: relative;
+    z-index: 100;
+}
+
+/* Safety: ensure button is clickable */
+.btn-primary {
+    pointer-events: auto;
+}
+
 }
