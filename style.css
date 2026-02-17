@@ -759,5 +759,14 @@ body {
 .btn-primary {
     pointer-events: auto;
 }
+.btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 10;
+    position: relative;
+}
 
 }
